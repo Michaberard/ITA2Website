@@ -1,0 +1,414 @@
+html { 
+
+}
+
+#header {
+    display: inline-block;
+    text-align: center;
+    height: 150px;
+    width: 910px;
+    background-color: transparent;
+    color: white;
+}
+body {
+    color:#33;
+    text-align: center;
+    font-family: Times new roman;
+    background: url(backg_stad2.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    opacity: 0.9;
+}
+
+
+#nav {
+    display: inline-block;
+	margin: 0;
+	padding: 0px;
+}
+
+#nav ul {
+        
+        margin: 0;
+        padding: 0;
+        line-height: 30px;
+       }
+
+#nav li {
+    float: left;
+    margin: 0;
+	padding: 0;
+    list-style: none;
+    position: relative;
+    background: black;
+    
+  
+	}
+	
+#nav ul li a {
+            text-align: center;
+			color: #fff;
+			display: block;
+            width: 150px;
+            height: 30px;
+			font-family: times new roman;
+			text-decoration: none;
+            border: 1px solid grey;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 0 0 4px 4px;
+		}
+
+#nav ul ul{
+        position: absolute;
+        color: blue;
+        visibility: hidden;
+        top: 32px;
+        }
+
+#nav ul li:hover ul{
+        visibility: visible;
+        
+}
+
+#nav li:hover{
+        background-color: blue;
+        color: white;
+        display: block;
+}
+
+#nav ul li:hover ul li a:hover{
+        background-color: grey;
+        color: white;
+        
+}
+
+
+.clearF{
+        clear: both;
+        margin: 0;
+        padding: 0;
+}
+
+#content {
+    display: inline-block;
+    border-radius: 0 0 4px 4px;
+    background: black;
+    width: 910px;
+    padding-bottom:50px;
+    text-align: justify;
+    
+}
+
+#content .table1{
+    position: relative;
+    color: black;
+    margin: 0 1.5%;
+    margin-top: 150px;
+    padding: 1px;
+    background-color: greenyellow;
+    text-align: left;
+    float: right;
+    width: 0%;
+
+}
+
+#content .table1 td{
+    padding: 5px 7px 1px 1px;
+    border: 1px solid blue;
+}
+
+#content .table1 tr:hover{
+background-color: darkolivegreen;
+}
+
+
+    
+
+#content .table2{
+    position: absolute;
+    vertical-align: top;
+    margin-right: 50px;
+    width: 70%;
+    height: 200px;
+    float: left;
+}
+
+#content .table2 tr{
+    padding: 0px 0px 0px 0px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+#content .table2 .linkart{
+vertical-align: top;
+margin-left:0px;
+font-size: 155%;
+background-color: white;
+}
+
+#footer{ 
+    margin-top: 100px;
+    background-color: burlywood ;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+
+#footer:hover{opacity: 1;}
+
+.table5 {
+    vertical-align: top;
+    float:left; 
+    width: 70%;
+    background-color: white;
+    font-size: 155%;
+}
+#content .table5 .linkart{
+vertical-align: top;
+}
+
+.table3 {
+    vertical-align: top;
+    float:left; 
+    width: 70%;
+    background-color: white;
+    font-size: 155%;
+}
+#content .table3 .linkart{
+vertical-align: top;
+}
+
+.table6 {
+    vertical-align: top;
+    float:left; 
+    width: 70%;
+    background-color: white;
+    font-size: 155%;
+}
+#content .table6 .linkart{
+vertical-align: top;
+}
+
+.table4 {
+    vertical-align: top;
+    float:left; 
+    width: 70%;
+    background-color: white;
+    font-size: 155%;
+}
+#content .table4 .linkart{
+vertical-align: top;
+}
+
+.table7 {
+    margin-top: 75px;
+    margin-left: 150px;
+    vertical-align: top;
+    float:left; 
+    width: 70%;
+    background-color: none;
+    font-size: 155%;
+ }
+#content .table7 .linkart{
+    vertical-align: top;
+    color: white;
+}
+
+.cont{
+font-size: 155%;
+color: deepskyblue;
+}
+
+#histo{
+    display: inline-block;
+    color:#33;
+    font-family: Times new roman;
+    background-color: peachpuff; 
+    background-size: cover;
+    padding-bottom: 5px;
+    padding-top: none;
+    }
+
+#histo2{
+    display: inline-block;
+    color:#33;
+    font-family: Times new roman;
+    background-color: peachpuff; 
+    background-size: cover;
+    padding-bottom: 5px;
+    padding-top: none;
+    width: 100%;
+    }
+
+#histo3{
+    display: inline-block;
+    color:#33;
+    font-family: Times new roman;
+    background-color: peachpuff; 
+    background-size: cover;
+    padding-bottom: 5px;
+    padding-top: none;
+     width: 100%;
+    }
+
+#histo3 h2{
+       text-align: center;
+    }
+.hist{
+        margin: 50px 50px;
+}
+
+
+.store{
+    border: 1px solid white;
+    color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.store td:hover{
+   background-color: lightgray;
+    color: brown;
+}
+
+#about{
+    display: inline-block;
+    color:#33;
+    font-family: Times new roman;
+    background-color: peachpuff; 
+    background-size: cover;
+    padding-bottom: 5px;
+    padding-top: none;
+    }
+
+#about h1{
+    text-align: center;
+}
+
+#about h2{
+    margin: 50px 50px;
+}
+
+
+#compet .title{
+     color: dodgerblue;
+    text-align: center;
+}
+
+#compet img.center{
+    display: block;
+    margin: 0px auto;
+}
+
+#games{
+    display: inline-block;
+    color: white;
+    margin: 50px 50px;
+    font-size: 150%;
+    float: left;
+}
+
+.table8{
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: top;
+    float:right; 
+    width: auto;
+    color:white;
+    margin-top: 150px;
+    padding: 1px;
+    background-color: darkblue;
+    text-align: left;
+    font-size: 125%;
+
+}
+
+.table8 td{
+    padding: 5px 7px 3px 3px;
+    border: 1px solid blue;
+}
+
+.table8 tr:hover{
+background-color: darkolivegreen;
+}
+
+#video{
+    
+    float:left; 
+    width: 48%;
+    color:white;
+    margin-top: 150px;
+    padding: 1px;
+    text-align: left;
+    font-size: 125%;
+}
+
+#video h1{
+     display: block;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+#gallery{
+    position: relative;
+    float:right; 
+    width:50%;
+    color:white;
+    margin-top: 150px;
+    padding: 1px;
+    text-align: left;
+    font-size: 125%;
+}
+
+#gallery h1{
+    display: block;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+
+#video2{
+    
+    float:left; 
+    width: 100%;
+    color:white;
+    margin-top: 50px;
+    padding: 1px;
+    text-align: left;
+    font-size: 125%;
+    
+}
+
+#video2 h1{
+     text-align: center;
+  
+}
+
+.vid{
+    display: block;
+    margin: 0px auto;
+}
+
+#gal{
+    display: block;
+    margin: 0px auto;
+    background-color: black;
+}
+
+#gallery2 h1{
+    color:white;
+    margin-top: 50px;
+    padding: 1px;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
