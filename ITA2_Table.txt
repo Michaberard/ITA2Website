@@ -1,0 +1,13 @@
+
+CREATE TABLE ITA2_User 
+
+( User_ID INT NOT NULL , 
+First_Name VARCHAR(100) NOT NULL , 
+Last_Name VARCHAR(100) NOT NULL , 
+Username VARCHAR(100) NOT NULL , 
+Email VARCHAR(100) NOT NULL, 
+Pass_word VARCHAR(100) NOT NULL )
+
+INSERT INTO `dbi333702`.`ita2_user` 
+(`User_ID`, `First_Name`, `Last_Name`, `Username`, `Email`, `Pass_word`) 
+VALUES ('1', 'Mic', '', 'Mic', '', '1');
