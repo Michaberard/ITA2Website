@@ -13,6 +13,9 @@
 <body>
 <div id="header">
 <h1> <img src="Pic/logo.jpg" alt="logo" align="center" style="width:100px;height:70px" > Welcome to the best AS Roma fan website! </h1>
+<FORM METHOD="LINK" ACTION="Login.php">
+<INPUT TYPE="submit" VALUE="Login Here">
+</FORM>
     </div>
   <div id="navigation">  
       <div id="nav">  

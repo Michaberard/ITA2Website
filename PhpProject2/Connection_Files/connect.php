@@ -1,17 +1,31 @@
-<?php
+<?php 
 
-$host ="localhost";
-$username="root";
-$password="";
-$db="forum";
+/* //practice on connecting to database
+ try{
+    $handler =  new PDO('mysql:host=localhost;dbname=website','root','');
+    $handler->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo 'Successful connection with database!';
+}
+catch(PDOException $err)
+{
+    echo $err->getMessage();
+    die();
+}
 
-mysql_connect($host, $username, $password) or die(mysql_error());
-mysql_select_db($db);
+    $query = $handler->query(' SELECT * FROM user');
+
+    $r = $query->fetch();
+    echo '<pre>', print_r($r), '</pre>';*/
+
+class connect
+{
+    public function dbConnect()
+    {
+        return new PDO('mysql:host=localhost;dbname=website','root','');
+    }
+}
+
+?> 
 
 
-
-
-
-
-?>
 
